@@ -2,6 +2,7 @@
 <RevitAddIns>
 	<AddIn Type-="Command">
 		<Assembly>"C:\Program Files\RevitAPITrainig\RevitAPITraining_Task5_2.dll"</Assembly>
+		
 		<AddInId>9A25FADB-C76B-4056-B2FA-D45C8C0F00FB</AddInId>
 		<FullClassName>RevitAPITraining_Task5_2.Main</FullClassName>
 		<VendorId>ADSK</VendorId>

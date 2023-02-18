@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
 	<AddIn Type-="Application">
+		<Name>HomeWork5_Ribbon</Name>
 		<Assembly>"C:\Program Files\RevitAPITrainig\RevitAPITraining_HomeWork5_Ribbon.dll"</Assembly>
 		<AddInId>B330D643-1107-4B81-BC3E-86A02557DF05</AddInId>
 		<FullClassName>RevitAPITraining_HomeWork5_Ribbon.Main</FullClassName>

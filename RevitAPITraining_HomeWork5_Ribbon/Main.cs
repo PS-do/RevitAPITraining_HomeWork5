@@ -21,15 +21,15 @@ namespace RevitAPITraining_HomeWork5_Ribbon
         public Result OnStartup(UIControlledApplication application)
         {
             //Для двух приложений выше создайте вкладку на ленте в Revit, панель и 2 кнопки.
-            string tabName = "RevitAPITrainig";
+            string tabName = "HomeWork5";
             application.CreateRibbonTab(tabName);
             string utilsFloberPath = @"C:\Program Files\RevitAPITrainig\";
             var panel = application.CreateRibbonPanel(tabName, "Задание 5.3");
-            var button = new PushButtonData("5.1", "Кнопка на выполнение программы задания 5.1",
+            var button = new PushButtonData("5.1", "Task5.1",
                 Path.Combine(utilsFloberPath, "RevitAPITraining_Task5_1.dll"),
                 "RevitAPITraining_Task5_1.Main");
             panel.AddItem(button);
-            button = new PushButtonData("5.2", "Кнопка на выполнение программы задания 5.2",
+            button = new PushButtonData("5.2", "Task5.2",
                 Path.Combine(utilsFloberPath, "RevitAPITraining_Task5_2.dll"),
                 "RevitAPITraining_Task5_2.Main");
             panel.AddItem(button);

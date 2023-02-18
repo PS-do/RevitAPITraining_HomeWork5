@@ -6,7 +6,7 @@
              xmlns:local="clr-namespace:RevitAPITraining_Task5_2"
              mc:Ignorable="d"  
         Title="Задание 5.2 Изменение типов стен"
-         Width="301">
+         Width="333" Height="115">
     <StackPanel>
         <Label Content="Тип стен:"/>
         <ComboBox ItemsSource="{Binding WallTypes}"
