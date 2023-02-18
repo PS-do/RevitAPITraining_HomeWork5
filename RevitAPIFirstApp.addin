@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+	<AddIn Type-="Command">
+		<Assembly>"C:\Program Files\RevitAPITrainig\RevitAPITraining_HomeWork5.dll"</Assembly>
+		<AddInId>5FAD9CC4-EE13-46F6-9FE8-F19ABB281A28</AddInId>
+		<FullClassName>RevitAPITraining_HomeWork5.Main</FullClassName>
+		<VendorId>ADSK</VendorId>
+		<Text>Первое приложение для Revit</Text>
+	</AddIn>	
+</RevitAddIns>
